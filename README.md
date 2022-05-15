@@ -6,10 +6,11 @@ Ever wanted to know what the optical sensor in your mouse see?
 Here i hacked a Logitech G402 Gaming mouse and uploaded my own firmware to grab pixels off the
 sensor and send them over usb to a linux machine, where a sdl2 program renders it on screen!
 
-To replicate this for yourself, you need
-    1. A logitech G402 lying around that you dont care about(will be destroyed..kindof..you can actually make it into a mouse again)
-    2. A stlink-v2 clone.. to reprogram the STM32 onboard the mouse.
-    3. have sdl2 installed in your system for the GUI application to successfuly compile.
+To replicate this for yourself, you need:
+
+1. A logitech G402 lying around that you dont care about(will be destroyed..kindof..you can actually make it into a mouse again)
+2. A stlink-v2 clone.. to reprogram the STM32 onboard the mouse.
+3. have sdl2 installed in your system for the GUI application to successfuly compile.
 
 The logitech-g402 directory contains the actual STM32CubeMX project, if you want to read the code you can.. else you just need to flash the logitech-g402.bin file under Debug
 to the mouse.
