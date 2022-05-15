@@ -20,6 +20,6 @@ Then you can plug in the mouse into your PC.
 After that you need to set permissions for our device file by doing ```sudo chmod 777 /dev/usbd```
 After that you can build g402_capture.cpp and run it by doing ```make g402_capture && ./gcap```
 
-And then BOOM!
+And then BOOM! and the FPS is a lot faster than shown in the GIF.. ;)
 
 ![Screen capture of app running](capture.gif)
