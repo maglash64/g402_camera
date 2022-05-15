@@ -13,7 +13,7 @@
 #include <stdint.h>
 
 #define ARRAY_SIZE 26
-#define PIXEL_SIZE 1    
+#define PIXEL_SIZE 5  
 
 uint8_t buffer[64];
 

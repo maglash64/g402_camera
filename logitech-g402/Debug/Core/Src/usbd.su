@@ -1,0 +1,10 @@
+usbd.c:114:17:USBD_DEV_Init	16	static
+usbd.c:143:17:USBD_DEV_DeInit	16	static
+usbd.c:161:17:USBD_DEV_Setup	40	static
+usbd.c:276:9:USBD_DEV_SendReport	32	static
+usbd.c:295:9:USBD_Transmit	24	static
+usbd.c:310:10:USBD_DEV_GetPollingInterval	16	static
+usbd.c:317:18:USBD_DEV_GetFSCfgDesc	16	static
+usbd.c:325:17:USBD_DEV_DataIn	16	static
+usbd.c:332:17:USBD_DEV_DataOut	16	static
+usbd.c:340:18:USBD_DEV_GetDeviceQualifierDesc	16	static

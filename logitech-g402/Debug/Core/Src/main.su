@@ -1,0 +1,11 @@
+main.c:78:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:88:6:delay_us	16	static,ignoring_inline_asm
+main.c:95:6:blink	8	static
+main.c:127:6:spi_write	16	static
+main.c:137:9:spi_read	24	static
+main.c:162:5:main	16	static
+main.c:287:6:SystemClock_Config	88	static
+main.c:333:13:MX_SPI1_Init	8	static
+main.c:371:13:MX_TIM4_Init	64	static
+main.c:429:13:MX_GPIO_Init	40	static
+main.c:475:6:Error_Handler	4	static,ignoring_inline_asm

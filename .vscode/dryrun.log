@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/maglash/Work/g402_camera'
+g++ -o gcap g402_capture.cpp `sdl2-config --cflags --libs`
+make: Leaving directory '/home/maglash/Work/g402_camera'
+ 
