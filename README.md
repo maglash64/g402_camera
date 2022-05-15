@@ -25,6 +25,6 @@ After that you need to set permissions for our device file by doing ```sudo chmo
 
 After that you can build g402_capture.cpp and run it by doing ```make g402_capture && ./gcap```
 
-And then BOOM! and the FPS is a lot faster than shown in the GIF.. ;)
+And then BOOM! 
 
 ![Screen capture of app running](capture.gif)
