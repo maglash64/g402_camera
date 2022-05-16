@@ -12,8 +12,7 @@ To replicate this for yourself, you need:
 2. A stlink-v2 clone.. to reprogram the STM32 onboard the mouse.
 3. have sdl2 installed in your system for the GUI application to successfuly compile.
 
-The logitech-g402 directory contains the actual STM32CubeMX project, if you want to read the code you can.. else you just need to flash the logitech-g402.bin file under Debug
-to the mouse.
+The firmware directory contains the actual STM32CubeMX project, if you want to read the code you can.. else you just need to flash the logitech-g402.bin file under Debug to the mouse.
 
 Then you need to build the usbd kernel module under usbd_driver.. just do ```sudo make ``` 
 

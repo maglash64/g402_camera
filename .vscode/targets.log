@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 15 19:17:49 2022
+# Make data base, printed on Mon May 16 19:22:43 2022
 
 # Variables
 
@@ -17,15 +15,13 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-NO_AT_BRIDGE = 1
-# environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d6f055a4-d248-4e4f-a190-12cfef27bc46.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c5517aa0-42cf-422a-8531-f0c45241f4fd.sock
 # environment
 VSCODE_CWD = /home/maglash/Work/g402_camera
 # default
@@ -61,13 +57,13 @@ VSCODE_CODE_CACHE_PATH = /home/maglash/.config/Code/CachedData/da15b6fd3ef856477
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.A7F6L1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.69O8L1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.208
+GNOME_TERMINAL_SERVICE = :1.122
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -103,13 +99,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 5536
+VSCODE_PID = 5713
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/r0ug3:@/tmp/.ICE-unix/1844,unix/r0ug3:/tmp/.ICE-unix/1844
+SESSION_MANAGER = local/r0ug3:@/tmp/.ICE-unix/1911,unix/r0ug3:/tmp/.ICE-unix/1911
 # automatic
 *F = $(notdir $*)
 # environment
@@ -133,7 +129,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/85e90952_e987_4f1f_9f66_98d221a1f6ab
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/48e56b74_b1d9_4410_86cd_6149851bd9be
 # environment
 MAKELEVEL := 0
 # default
@@ -185,7 +181,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := g402_capture
 # environment
-SYSTEMD_EXEC_PID = 2031
+SYSTEMD_EXEC_PID = 2095
 # environment
 DISPLAY = :0
 # environment
@@ -253,7 +249,7 @@ GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=120/1024=12%, Rehash=0, Collisions=11/150=7%
+# Load=119/1024=12%, Rehash=0, Collisions=11/149=7%
 
 # Pattern-specific Variable Values
 
@@ -261,9 +257,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66311, inode 8544134): 12 files, no impossibilities.
+# . (device 66311, inode 8544134): 14 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -289,7 +285,6 @@ launch: g402_capture
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
- 
 	@sudo chmod 777 /dev/usbd && ./gcap
 
 g402_capture: g402_capture.cpp
@@ -297,6 +292,9 @@ g402_capture: g402_capture.cpp
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 	g++ -o gcap g402_capture.cpp `sdl2-config --cflags --libs`
 
 # Not a target:
@@ -327,12 +325,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 195 B / avg = 9 B
-# current buf: size = 8162 B / used = 195 B / count = 20 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 216 B / avg = 9 B
+# current buf: size = 8162 B / used = 216 B / count = 22 / avg = 9 B
 
-# strcache performance: lookups = 29 / hit rate = 31%
+# strcache performance: lookups = 31 / hit rate = 29%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Sun May 15 19:17:49 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Mon May 16 19:22:43 2022
 
  
